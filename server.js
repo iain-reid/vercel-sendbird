@@ -210,7 +210,8 @@ app.post('/callback', express.json(), async (req, res) => {
     }
 });
 
-app.listen(5500, () => console.log('Sendbid DialogFlow BOT listening on port 5500!'));
+module.exports = app;
+//app.listen(5500, () => console.log('Sendbid DialogFlow BOT listening on port 5500!'));
 
 /**
  * HELPER FUNCTIONS
